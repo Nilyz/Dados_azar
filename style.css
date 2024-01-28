@@ -93,7 +93,6 @@ h1{
 }
 #premios p{
     margin-bottom: 10px;
-
 }
 #resultado{
     font-size: 20px;
@@ -119,20 +118,31 @@ button{
     margin-top: 20px;
     cursor: pointer;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
-    
 }
-
-
-
 .boton{
     text-align: center;
     margin-top: 30px;
 }
- 
 button:active{
     background: black;
     color: white;
     border: 3px solid #ffd700; 
     box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+
+}
+
+#ventanaGanado{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 20px;
+    position: absolute;
+    top: 43%;
+    left: 34%;
+    padding: 50px;
+    font-size: 50px;
+    color: #ffd700;
+    text-align: center;
+    opacity: 0;
 
 }
